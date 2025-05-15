@@ -1,6 +1,6 @@
 # Distributed Database System
 
-This project implements a distributed database system using Go (Golang). The system consists of a master node and multiple slave nodes that communicate over HTTP, supporting data replication and basic database operations. A client interface is provided via a console and a GUI built with Fyne.
+This project implements a distributed database system using Go (Golang). The system consists of a master node and multiple slave nodes that communicate over HTTP, supporting data replication and basic database operations. A client interface is provided via a GUI built with Fyne.
 
 ## System Architecture
 
@@ -79,6 +79,10 @@ Below is the structure of the distributed database system:
    ```
    - Replace `peers` with the IP addresses and ports of slave nodes.
    - Adjust `db-host`, `db-user`, and `db-pass` as needed.
+   ```bash
+   go run gui.go
+   ```
+   - Run the Master GUI
 
 4. **Run Slave Nodes**:
    On separate machines or terminals:
