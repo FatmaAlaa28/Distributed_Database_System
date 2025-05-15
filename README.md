@@ -162,8 +162,6 @@ Below is the structure of the distributed database system:
   - All nodes support queries: search, update, delete, select, insert.
   - Master-only: Drop database.
   - Data replication from master to slaves via HTTP.
-- **Bonus**:
-  - Basic fault tolerance: Slave nodes can serve read queries if the master is down.
   - GUI interface using Fyne for user-friendly interaction.
 
 ## Notes
